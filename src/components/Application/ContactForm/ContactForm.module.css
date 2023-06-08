@@ -1,0 +1,14 @@
+.form {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

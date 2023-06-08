@@ -1,17 +1,18 @@
-import { Bars } from 'react-loader-spinner';
+import { Comment } from 'react-loader-spinner';
 import style from './Loader.module.css';
 
 export const Loader = () => {
   return (
     <div className={style.loader}>
-      <Bars
+      <Comment
+        visible={true}
         height="80"
         width="80"
-        color="#4fa94d"
-        ariaLabel="bars-loading"
+        ariaLabel="comment-loading"
         wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
+        wrapperClass="comment-wrapper"
+        color="#fff"
+        backgroundColor="blue"
 />
     </div>
   );

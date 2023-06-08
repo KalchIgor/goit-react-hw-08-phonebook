@@ -1,0 +1,17 @@
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.deleteButton {
+  width: 80px;
+}
+
+.contactList {
+  font-size: 20px;
+}
