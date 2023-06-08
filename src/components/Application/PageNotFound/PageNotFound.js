@@ -4,7 +4,7 @@ import Img from "..//..//img/masha.gif";
 
 const PageNotFound = () => {
   return (
-    <div className={css.notFound} style={{ fontSize: '30px' }}>
+    <div className={css.notFound} >
       <p style={{ padding: '40px' }}>
         Ooops, Something went wrong:( Please, try again later! )
       </p>
